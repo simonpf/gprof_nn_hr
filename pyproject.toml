@@ -1,0 +1,13 @@
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "gprof_nn_hr"
+version = "0.1.0"
+description = "A high-resolution version of the GPROF precipitation retrieval algorithm."
+#requires-python = ">=3.14"
+dependencies = []
+
+[tool.poetry]
+packages = [{ include = "gprof_nn_hr", from = "src" }]

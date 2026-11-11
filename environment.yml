@@ -1,0 +1,45 @@
+name: gprof_nn_hr
+
+channels:
+  - pytorch
+  - conda-forge
+
+dependencies:
+  - python=3.14
+  - poetry
+  - satpy
+  - notebook
+  - geopandas
+  - cryptography
+  - numpy
+  - cdsapi
+  - requests
+  - xarray
+  - pyproj
+  - appdirs
+  - boto3
+  - paramiko
+  - shapely
+  - sphinx_rtd_theme
+  - pytest
+  - appdirs
+  - scipy
+  - beautifulsoup4
+  - lxml
+  - netcdf4
+  - matplotlib
+  - cartopy
+  - seaborn
+  - cmocean
+  - hdf4
+  - hdf5
+  - pyhdf
+  - h5py
+  - cfgrib
+  - tqdm
+  - pip
+  - pip:
+    - git+https://github.com/see-geo/pansat@refactoring
+    - git+https://github.com/simonpf/speed
+    - jupyterlab-vim
+    - bottleneck
